@@ -66,6 +66,8 @@ CS622_Jisoo Lee_02.06.2023
     3)Test case 3 - 26 million * 10 sequences
      1) Result: Only the multi-threading could create the genome successfully.
      2) Expected reason: Single threading shows out-of-memory error because of lack of heap space.
+                            In the multi-thread environment, the memory required to generate sequences is allocated in each thread so that reduced the
+                            memory footprint.
      3) Console outcome:
         	--- Multi-thread ---
         Genome Sequence Length: 260000000, Thread count: 5
@@ -87,4 +89,5 @@ CS622_Jisoo Lee_02.06.2023
    #Conclusion
     - Biological information shows large amount of size such as whole genome sequencing,
       which involves algorithms and programming skills in analyzing, transferring data, and storing data.
+    - The workload was distributed across multiple threads, allowing the program to create better use of the available resources.
     - Multi-threading can lead to significant performance improvement when dealing with a large amount of size in limited time and space.
