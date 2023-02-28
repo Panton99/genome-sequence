@@ -15,22 +15,22 @@
 
 4.Test Cases
     - show the difference of performance outcome when using actual genome size.
-    -Test case 1
+    - Test case 1
     private static final int WHOLE_SEQ_LENGTH = 100;
     private static final int THREADS = 5;
     private static final int CHAR_LENGTH = 10;
-    -Test case 2
+    - Test case 2
     private static final int WHOLE_SEQ_LENGTH = 5000000;
     private static final int THREADS = 5;
     private static final int CHAR_LENGTH = 10;
-    -Test case 3
+    - Test case 3
     private static final int WHOLE_SEQ_LENGTH = 26000000;
     private static final int THREADS = 5;
     private static final int CHAR_LENGTH = 10;
 
 5.Test case outcomes/Conclusion
-   #Test cases
-    - Test case 1 - 100 * 10 sequences
+   - Test cases
+    - Test case 1: 100 * 10 sequences
      1) Result: Multi-thread environment took more time than a single thread.
      2) Expected reason: The workload is relatively small so the benefit of parallelism is limited.
      3) Console outcome:
@@ -52,7 +52,7 @@
 
 
 
-    2)Test case 2 - 5 million * 10 sequences
+    2) Test case 2 - 5 million * 10 sequences
      1) Result: Multi-thread environment shows better performance than a single thread.
      2) Expected reason: With this size of workload starting to show better performance in multi-threading.
      3) Console outcome:
@@ -64,7 +64,7 @@
         Genome Sequence Length: 5000000
         Time spent creating: 479 milliseconds
 
-    3)Test case 3 - 26 million * 10 sequences
+    3) Test case 3 - 26 million * 10 sequences
      1) Result: Only the multi-threading could create the genome successfully.
      2) Expected reason: Single threading shows out-of-memory error because of lack of heap space.
                             In the multi-thread environment, the memory required to generate sequences is allocated in each thread so that reduced the
