@@ -29,6 +29,7 @@
     private static final int CHAR_LENGTH = 10;<br>
 
 5.Test case outcomes/Conclusion
+```
    - Test cases
     1) Test case 1: 100 * 10 sequences
      1) Result: Multi-thread environment took more time than a single thread.
@@ -84,7 +85,6 @@
       CCCTTTAGGT GAACGCCGAC GGAAGGTCAG GCCCGGGCAT TACGTGCAAT AAGTCTCCCT TCATATAAAA TATCGTCACT TCTGAAGTGG GGACAACTGC<br>
       TCATCTCAGC TCTGATGGTC CGTGTGACAC AGACCCATCG ACATTAACTC GGTGTTGGCT CGCCTTATCG GAGCATACCG GATGAAATCC CAAACCGCTC<br>
 
-
     2) Test case 2 - 5 million * 10 sequences
      1) Result: Multi-thread environment shows better performance than a single thread.
      2) Expected reason: With this size of workload starting to show better performance in multi-threading.
@@ -118,7 +118,7 @@
         	at cs662.CreateGenomeProgram.createGenomeWithSingleThread(CreateGenomeProgram.java:107)
         	at cs662.CreateGenomeSingleThread.createGenomeWithSingleThread(CreateGenomeSingleThread.java:20)
         	at cs662.Main.main(Main.java:23)
-
+```
 
    #Conclusion
     - Biological information shows large amount of size such as whole genome sequencing,
