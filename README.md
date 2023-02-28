@@ -15,6 +15,7 @@
 
 4.Test Cases
     - show the difference of performance outcome when using actual genome size.
+    ```
     - Test case 1
     private static final int WHOLE_SEQ_LENGTH = 100;<br>
     private static final int THREADS = 5;<br>
@@ -27,7 +28,7 @@
     private static final int WHOLE_SEQ_LENGTH = 26000000;<br>
     private static final int THREADS = 5;<br>
     private static final int CHAR_LENGTH = 10;<br>
-
+```
 5.Test case outcomes/Conclusion
 ```
    - Test cases
@@ -121,7 +122,7 @@
 ```
 
    #Conclusion
-    - Biological information shows large amount of size such as whole genome sequencing,
-      which involves algorithms and programming skills in analyzing, transferring data, and storing data.
-    - The workload was distributed across multiple threads, allowing the program to create better use of the available resources.
-    - Multi-threading can lead to significant performance improvement when dealing with a large amount of size in limited time and space.
+    <br>- Biological information shows large amount of size such as whole genome sequencing,
+      <br>which involves algorithms and programming skills in analyzing, transferring data, and storing data.
+    <br>- The workload was distributed across multiple threads, allowing the program to create better use of the available resources.
+    <br>- Multi-threading can lead to significant performance improvement when dealing with a large amount of size in limited time and space.
