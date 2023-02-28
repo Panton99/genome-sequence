@@ -15,7 +15,6 @@
 
 4.Test Cases
     - show the difference of performance outcome when using actual genome size.
-    ```
     - Test case 1
     private static final int WHOLE_SEQ_LENGTH = 100;<br>
     private static final int THREADS = 5;<br>
@@ -28,7 +27,7 @@
     private static final int WHOLE_SEQ_LENGTH = 26000000;<br>
     private static final int THREADS = 5;<br>
     private static final int CHAR_LENGTH = 10;<br>
-```
+    
 5.Test case outcomes/Conclusion
 ```
    - Test cases
