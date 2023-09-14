@@ -35,8 +35,8 @@
      1) Result: Multi-thread environment took more time than a single thread.
      2) Expected reason: The workload is relatively small so the benefit of parallelism is limited.
      3) Console outcome:
-       	--- Multi-thread ---<br>
-       Genome Sequence Length: 1000, Thread count: 5<br>
+       	--- Multi-thread ---
+       Genome Sequence Length: 1000, Thread count: 5
        Time spent creating: 3 milliseconds<br>
        Genome sequence : CCCCTTCCAG CAATGGTGGG TCCATAGGGT TTAAACAGGA TGTTTTTCCC AGCTTAAGCT AACGTAACTA TTGCATATTT CAGTTGCCAC CGGACAAGTA<br>
        TGACCTACCC AGACTAGGTC GTTAAAGACA GTTTTAGTCT ATAAAATCAG TGGGAACAGC TATCTGGGTG TGCGTTGTGG CGTCCTCAAT TCCACGCAAC <br>
@@ -60,9 +60,9 @@
        [Thread #5] ATTATACTCG TGGCTAACCA CAGAGGTGCA TAAGTGTAAG CTAACGCTGG TGCATAAATC CTAACTACTT TCTGACCATC CTTTGCCATT GTCGTCTCCT<br>
                    ACTCACGTAA ATTCAGCATA CCGGCGTTTA TCCATCAGGA AGCAGATTCG CAGACTTTAG AGCAACTAAC CTCGGCAGGA TTCAAGATGC GATTTAGTGC<br>
 
-       	--- Single-thread ---<br>
-       Genome Sequence Length: 100<br>
-       Time spent creating: 0 milliseconds<br>
+       	--- Single-thread ---
+       Genome Sequence Length: 100
+       Time spent creating: 0 milliseconds
        Genome sequence : AATGAGGTTT TTCTGAAATC GCTCTGGGCA ATGCTGGGCC TAACCCCGAT CAGCGATGGA ACTAAAGGTT ACGATCCTAA AGAATCCGCA CTAAAGATCC <br>
        CGCTGCTCGC GGCTCACTGT AACAGAAAGC CCTGACTGCC CGTATCGAAT CTAACTACGC TCTAGTAATT CCTAAATGCT TGTCGGCCGG TATTGAAACG <br>
        GAAGTGGGTA TCCGCTATTT GTTTAGGCAG AAACTCGGAT ATATACCACA GTATATTCGG ACGCCCCCTG CGTGGACGCG GGGAGCTATG TGGGGGCTCC <br>
